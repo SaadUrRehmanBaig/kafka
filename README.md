@@ -7,7 +7,9 @@
 5) run below command to listen all event in terminal `docker exec -it <kafka_container_id> kafka-console-consumer --bootstrap-server localhost:9092 --topic my-topic --from-beginning`
 6) run following command to kill container `docker-compose down`
 
-#kafka Flow of Event
+--------------------------------------------------------------------
+
+# kafka Flow of Event
 
 ![Kafka Architecture](kafka-blackBg.jpeg)
 
